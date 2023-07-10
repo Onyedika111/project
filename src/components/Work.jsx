@@ -38,7 +38,7 @@ const Work = () => {
 
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
          
-                <span className="text-3xl text-white">KACHINANCE DASHBOARD</span>
+                <span className="text-md lg:text-3xl text-white">KACHINANCE DASHBOARD</span>
               </div>
             </a>
 
@@ -54,7 +54,7 @@ const Work = () => {
             className="flex-1 flex flex-col gap-y-10">
 
 
-          <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+          <a href="https://k-mart-ecommerce-fmnpb3o9w-onyedika111.vercel.app/" target="_blank" className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               <img
                 className="group-hover:scale-125 transition-all duration-500"
@@ -67,9 +67,9 @@ const Work = () => {
 
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
          
-                <span className="text-3xl text-white">K MART ECOMMERCE</span>
+                <span className="text-md lg:text-3xl text-white">K MART ECOMMERCE</span>
               </div>
-            </div>
+            </a>
             
             <a href="https://wedaa.netlify.app/#/weather?lat=6.4550575&lon=3.3941795" target="_blank" className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
@@ -84,7 +84,7 @@ const Work = () => {
 
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
          
-                <span className="text-3xl text-white">WeatherApp </span>
+                <span className="text-md lg:text-3xl text-white">WeatherApp </span>
               </div>
             </a>
           </motion.div>

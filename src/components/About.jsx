@@ -24,13 +24,13 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1"
+            className="flex-1 px-8 lg:px-0"
           >
             <h2 className="h2 text-accent font-secondary text-[40px]">About Me</h2>
             <h3 className="h3 mb-4">
               I am into building web technologies making use of the MERNSTACK
             </h3>
-            <p className="mb-6">
+            <p className="mb-6 text-sm lg:text-xl">
               Making use of Frontend frameworks such Next JS, React JS, Typescript etc and NoSQL database technologies like MongoDB, I have been able to build several functional web applications.
 
               <br />
@@ -41,7 +41,7 @@ const About = () => {
         
 
             <div className="flex gap-x-8 items-center">
-              <button className="btn btn-lg"><a href="#contact">Contact me</a></button>
+              <button className="btn h-10 w-30 text-sm py-2 px-6 lg:btn-lg"><a href="#contact">Contact me</a></button>
               <a href="#work" className="text-gradient btn-link font-secondary text-2xl">
                 My Portfolio
               </a>

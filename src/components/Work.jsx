@@ -8,7 +8,7 @@ import Img3 from "../assets/port3.jpg";
 const Work = () => {
   return (
     <section className="section" id="work">
-      <div className="container mx-auto">
+      <div className="container px-8 lg:px-0 mx-auto">
         <div className="flex flex-col lg:flex-row gap-x-10">
           <motion.div  variants={fadeIn("right", 0.3)}
                   initial="hidden"

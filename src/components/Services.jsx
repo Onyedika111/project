@@ -30,7 +30,7 @@ const services = [
 const Services = () => {
   return (
     <section className="section" id="services">
-      <div className="container mx-auto">
+      <div className="container px-8 lg-px-0 mx-auto">
         <div className="flex flex-col lg:flex-row">
           <motion.div
             variants={fadeIn("right", 0.3)}
@@ -43,7 +43,7 @@ const Services = () => {
             <h3 className="h3 max-w-[455px] mb-16">
               I am a FullStack Developer and Technical Writer interested in building helpful applications
             </h3>
-            <button className="btn btn-sm"><a href="#work">See my works</a></button>
+            <button className="btn h-10 w-30 text-sm py-2 px-6 lg:btn-sm"><a href="#work">See my works</a></button>
           </motion.div>
           <motion.div
             variants={fadeIn("left", 0.5)}
@@ -64,7 +64,7 @@ const Services = () => {
                       <h4 className="text-[20px] tracking-wider font-primary font-semibold mb-6">
                         {name}
                       </h4>
-                      <p className="font-secondary leading-tight">
+                      <p className="font-secondary text-sm lg:text-xl leading-tight">
                         {description}
                       </p>
                     </div>

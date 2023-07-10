@@ -21,7 +21,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="text-[55px] font-bold leading-[0.8] lg:text-[110px]"
+              className="text-[35px] mb-4 font-bold leading-[0.8] lg:text-[110px]"
             >
               KACHI <span>CELESTINE</span>
             </motion.h1>
@@ -53,7 +53,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="mb-8 max-w-lg mx-auto lg:mx-0"
+              className="mb-8 text-base px-4 lg:text-2xl lg:px-0  max-w-lg mx-auto lg:mx-0"
             >
               I am always excited about building solutions to emerging issues with the dynamic power of technology.
             </motion.p>
@@ -61,7 +61,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }} className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
-              <button className="btn btn-lg"><a href="#contact">Contact me</a></button>
+              <button className="btn h-10 w-30 text-sm py-2 px-6 lg:btn-lg"><a href="#contact">Contact me</a></button>
               <a href="#work" className="text-gradient btn-link text-[25px] font-secondary">
                 My Portfolio
               </a>

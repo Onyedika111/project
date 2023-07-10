@@ -41,8 +41,8 @@ const About = () => {
         
 
             <div className="flex gap-x-8 items-center">
-              <button className="btn h-10 w-30 text-sm py-2 px-6 lg:btn-lg"><a href="#contact">Contact me</a></button>
-              <a href="#work" className="text-gradient btn-link font-secondary text-2xl">
+              <button className="btn h-10 w-30 text-sm whitespace-nowrap py-2 px-6 lg:btn-lg"><a href="#contact">Contact me</a></button>
+              <a href="#work" className="text-gradient whitespace-nowrap btn-link font-secondary text-2xl">
                 My Portfolio
               </a>
             </div>
